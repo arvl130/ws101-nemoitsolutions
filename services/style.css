@@ -1,0 +1,24 @@
+.site-info {
+    font-family: Roboto;
+    max-width: 70%;
+
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.site-info p, ul {
+    margin: 0
+}
+
+.site-info-section-title {
+    letter-spacing: 1px;
+    font-size: 175%;
+}
+
+.site-info-section-text {
+    margin-bottom: 2%;
+}
+
+.site-info-section-text.header {
+    margin-top: 3%;
+}

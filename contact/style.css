@@ -1,0 +1,88 @@
+.site-info {
+    font-family: Roboto;
+    max-width: 70%;
+
+    height: 100%;
+
+    flex: 30%;
+}
+
+.site-info p, ul {
+    margin: 0
+}
+
+.site-info-section-title {
+    letter-spacing: 1px;
+    font-size: 175%;
+}
+
+.site-info-section-text {
+    margin-bottom: 3%;   
+}
+
+.contact-form {
+    flex: 70%;
+    font-family: Roboto;
+    padding-left: 10%;
+}
+
+.contact-form * {
+    display: block;
+}
+
+.contact-form input {
+    padding: 1%;
+    width: 100%;
+
+    margin-bottom: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.contact-form input[type="submit"] {
+    padding: 2%;
+    width: 20%;
+
+    float: right;
+    margin-bottom: 2%;
+
+    background-color: #4b86b4;
+    color: white;
+
+    border-radius: 0px;
+    border: none;
+
+    text-transform: uppercase;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #63ace5;
+    color: white;
+}
+
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2%;
+
+    height: 200px;
+
+    margin-bottom: 2%;
+}
+
+.contact-form label {
+    text-transform: uppercase;
+
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.flex-container {
+    display: flex;
+    
+    margin-top:2%;
+    margin-bottom: 0.5%;
+    margin-left: 10%;
+    margin-right: 20%;
+}

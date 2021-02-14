@@ -1,0 +1,56 @@
+.site-info {
+    font-family: Roboto;
+    max-width: 65%;
+
+    margin-left: 11%;
+    margin-right: 24%;
+}
+
+.site-info p, ul {
+    margin: 0
+}
+
+.site-info-section-title {
+    letter-spacing: 1px;
+    font-size: 175%;
+
+    margin-bottom: 1%;
+}
+
+.site-info-section-text {
+    margin-bottom: 2%;
+}
+
+.site-info-section-text.header {
+    margin-top: 3%;
+}
+
+.site-info-section-text.ender {
+    margin-bottom: 6%;
+}
+
+.site-info-section-text img {
+    width: 100px;
+    height: 100px;
+
+    float:left;
+    margin-right: 0.5%;
+}
+
+#site-info-section-text-banner {
+    width: 100%;
+    height: 100%;
+
+    margin-bottom: 1%;
+}
+
+.site-info-section-text p {
+    margin-bottom: 1%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 5%;
+}
+
+#no-indent-paragraph {
+    text-indent: 0;
+}

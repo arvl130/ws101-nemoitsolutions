@@ -1,0 +1,156 @@
+.site-info {
+    font-family: Roboto;
+    max-width: 70%;
+
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.site-info p, ul {
+    margin: 0
+}
+
+.site-info-section-title {
+    letter-spacing: 1px;
+    font-size: 175%;
+}
+
+.site-info-section-text {
+    margin-bottom: 2%;
+}
+
+.site-info-section-text.ender {
+    margin-bottom: 3%;
+}
+
+.site-info-section-gallery {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.site-info-section-gallery ul {
+    display: flex;
+
+    list-style-type: none;
+    padding: 0;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-info-section-gallery img {
+    width: 200px;
+}
+
+.site-info-section-gallery p {
+    margin: 0;
+
+    font-size: 80%;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+#my-profile-img {
+    border: 4px solid #63ace5;
+}
+
+#my-profile-description {
+    border: 4px solid #63ace5;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+}
+
+.skills-line {
+    font-size: 85%;
+    display: inline-block;
+}
+
+.skills-line ul {
+    margin-top: 2px;
+    list-style-type: none;
+
+    padding: 0;
+}
+
+.skills-line ul li {
+    display: inline-block;
+}
+
+.skills-line a {
+    padding-left: 4px;
+    padding-right: 4px;
+
+    color: white;
+}
+
+.skills-line a:link {
+    text-decoration: none;
+}
+
+.skills-line a:visited {
+    text-decoration: none;
+}
+
+.skills-line a:hover {
+    text-decoration: none;
+}
+
+.skills-line a:active {
+    text-decoration: none;
+}
+
+#prog-htm {
+    background-color: #4caf50;
+}
+
+#prog-htm:hover {
+    background-color: #46a049
+}
+
+#prog-js {
+    color: black;
+    background-color: #f7dd00;
+}
+
+#prog-js:hover {
+    background-color: #eed151;
+}
+
+#prog-php {
+    background-color: #8892bf;
+}
+
+#prog-php:hover {
+    background-color: #4f5b93;
+}
+
+#prog-java {
+    color: whitesmoke;
+    background-color: #f0941f;
+}
+
+#prog-java:hover {
+    background-color: #dc6900;
+}
+
+#prog-cpp {
+    background-color: #1f70c1;
+}
+
+#prog-cpp:hover {
+    background-color: #2a4d69;
+}
+
+.site-info-section-text ul li p{
+    font-size: 80%;
+    font-weight: 450;
+    text-transform: uppercase;
+}
+.site-info-section-text ul li strong {
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}

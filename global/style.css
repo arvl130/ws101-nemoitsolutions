@@ -1,0 +1,278 @@
+/* Always use the full height of our screen */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Box-sizing for mere mortals */
+* {
+    box-sizing: border-box;
+}
+
+/* Stretch to bottom when page is not tall enough */
+.content-stretch {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+
+    /* Uppercase EVERYTHING */
+    text-transform: uppercase;
+
+    /* Font properties*/
+    font-family: Roboto;
+
+    /* Make letters wider */
+    letter-spacing: 0.5px;
+}
+
+.navbar .site-logo {
+    /* Column sizing */
+    flex: 20%;
+    text-align: center;
+
+    /* Padding */
+    padding: 1%;
+}
+
+.navbar a:link {
+    text-decoration: none;
+  }
+  
+.navbar a:visited {
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    text-decoration: none;
+}
+  
+.navbar a:active {
+    text-decoration: underline;
+}
+
+.navbar .site-logo {
+    color: #2a4d69;
+}
+
+.navbar .site-logo .site-logo-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 400;
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+.navbar .site-logo .site-logo-text p a:link,
+.navbar .site-logo .site-logo-text p a:active,
+.navbar .site-logo .site-logo-text p a:visited,
+.navbar .site-logo .site-logo-text p a:hover {
+    color: #2a4d69;
+}
+
+.navbar .site-logo .site-logo-subtext p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-weight: 300;
+    font-size: 90%;
+    letter-spacing: 0.5px;
+}
+
+.navbar .nav-options {
+    flex: 80%;
+    text-align: right;
+    height: 100%;
+}
+
+.navbar .nav-options ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar .nav-options ul li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar .nav-options ul li a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar .nav-options ul li a:link {
+    color: #4b86b4;
+}
+
+.navbar .nav-options ul li a:visited {
+    color: #4b86b4;
+}
+
+.navbar .nav-options ul li a:hover {
+    background-color: #63ace5;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-options ul li a:active {
+    background-color: #63ace5;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #2a4d69;
+    color: white;
+
+    font-family: Roboto;
+
+}
+
+.footer-starter {
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-starter img {
+    width: 40x;
+    height: 40px;
+
+    float: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    margin-right: 4px;
+}
+
+.footer-starter-title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.footer-starter-description {
+    font-weight: 300;
+    font-size: 80%;
+}
+
+.footer-body {
+    display: flex;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer-body-about,
+.footer-body-links,
+.footer-body-contacts {
+    flex: 33.33%;
+    max-width: 30%;
+}
+
+.footer-logo-special {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.footer-minisection-title {
+    font-weight: 500;
+}
+
+.footer-minisection-description {
+    margin-top: 0.5%;
+    font-size: 80%;
+}
+
+.footer-body-links {
+    margin-left:  40%;
+    max-width: 10%;
+}
+
+.footer-body-links .footer-minisection-description ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0.5%;
+}
+
+.footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    text-align: center;
+
+    margin-top: 0;
+    padding-bottom: 1.5%;
+
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.subdir-title {
+    font-family: Roboto;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 13%;
+    padding-right: 13%;
+
+    font-weight: 350;
+
+    background-color: #e7eff6;
+    color: #2a4d69;
+}
+
+.subdir-title a:link,
+.subdir-title a:active,
+.subdir-title a:visited,
+.subdir-title a:hover {
+    color: #2a4d69;
+}
+
+.subdir-title a:link,
+.subdir-title a:active,
+.subdir-title a:visited {
+    text-decoration: none;
+}
+.subdir-title a:hover {
+    text-decoration: underline;
+}
+
+.subdir-title-text {
+    font-size: 230%;
+}
+
+.subdir-title-path {
+    font-size: 80%;
+}

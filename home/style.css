@@ -1,0 +1,143 @@
+.banner {
+    /* Columns */
+    display: flex;
+    align-items: center;
+
+    /* Default font*/
+    font-family: Roboto;
+
+    /* Colors */
+    background-color: #699ad3;
+    color: white;
+
+    height: 350px;
+}
+
+.banner .banner-left {
+    flex: 50%;
+}
+
+.banner .banner-left .banner-left-title {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-size: 200%;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+}
+
+.banner .banner-left .banner-left-title p {
+    margin-bottom: 12px;
+}
+
+.banner .banner-left .banner-left-description {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-size: 90%;
+}
+
+.banner .banner-right {
+    flex: 50%;
+}
+
+.banner .banner-right .banner-right-subtext {
+    font-size: 110%;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+    background-color: #547ba9;
+
+    margin-left: 10%;
+    margin-right: 20%;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.banner .banner-right .banner-right-motto {
+    font-size: 80%;
+
+    background-color: #78a4d7;
+
+    margin-left: 10%;
+    margin-right: 20%;
+
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.services {
+    font-family: Roboto;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.services .services-title img {
+    width: 40px;
+    height: 40px;
+
+    margin-left: 12%;
+    margin-right: 0.7%;
+    margin-top: 2px;
+
+    float: left;
+}
+
+.services .services-title .services-title-text {
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-weight: 500;
+
+    margin-left: 12%;
+}
+
+.services .services-title .services-title-subtext {
+    font-size: 90%;
+
+    margin-left: 12%;
+}
+
+.services .services-body {
+    display: flex;
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.services .services-body .services-body-left, 
+.services .services-body .services-body-middle,
+.services .services-body .services-body-right {
+    flex: 33.33%;
+    margin-top: 1%;
+}
+
+.services-offerring {
+    margin-top: 5%;
+}
+
+.services-offerring img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 5%;
+}
+
+.services-offerring-name {
+    text-transform: uppercase;
+}
+
+.services-offerring-description {
+    font-size: 80%;
+    margin-right: 15%;
+}
