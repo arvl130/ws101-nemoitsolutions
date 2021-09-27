@@ -1,4 +1,4 @@
-# 🍋 Nemo IT Solutions Company Website 🐟
+# 🐟 Nemo IT Solutions Company Website 🐟
 
 This is a finals examination for WS101 on building an IT company website.
 
