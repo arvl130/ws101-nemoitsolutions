@@ -1,13 +1,10 @@
 <?php
-    // Hardcode our database credentials.
-    //
-    // FIXME: Environment variables might be a
-    // better way of storing these.
-    $host = "localhost";
-    $user = "root";
-    $password = "PASSWORD";
-    $database = "DATABASE";
-    
+    // Get database credentials from environment.
+    $host = getenv('DB_HOST') ?: "localhost";
+    $user = getenv('DB_USER') ?: "root";
+    $database = getenv('DB_NAME') ?: "itcompany_db";
+    $password = getenv('DB_PASS'); // allow empty passwords
+
     // Launch new connection.
     $conn = new mysqli($host, $user, $password, $database);
     
